@@ -4,7 +4,16 @@
 - Configured TailwindCSS
 - Login Form
 - Sign In/ Sign Up
-- 
+- Routing of App 
+- Form validation 
+- useRef Hook 
+- firebase setup
+- Deploy our app to production
+- Create SignUp User Account
+- Implement Sign In user Api
+- Created Redux store  
+- Implement Signout
+- Updated our profile
 
 # Features
 
