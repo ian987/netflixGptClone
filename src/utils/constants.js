@@ -18,8 +18,7 @@ export const API_OPTIONS = {
 
 export const TMDB_IMG_URL = "https://image.tmdb.org/t/p/w500";
 
-export const OPENAI_KEY =
-  "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";
+export const OPENAI_KEY = "";
 
 export const SUPPORTED_LANGUAGE = [
   { idenifier: "en", name: "English" },
