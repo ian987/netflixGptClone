@@ -8,14 +8,15 @@ const VideoBackground = ({ trailerId }) => {
   return (
     <div className="">
       <iframe
-        className="w-screen aspect-video"
+        className="w-[100%] aspect-video"
         src={
           "https://www.youtube.com/embed/" +
           trailerVideo?.key +
-          "?&autoplay=1&mute=1"
+          "?&autoplay=1&mute=1&loop=1&playlist=" +
+          trailerVideo?.key
         }
         title="YouTube video player"
-        referrerpolicy="strict-origin-when-cross-origin"
+        referrerPolicy="strict-origin-when-cross-origin"
       ></iframe>
     </div>
   );

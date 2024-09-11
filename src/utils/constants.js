@@ -15,3 +15,14 @@ export const API_OPTIONS = {
       "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmMDc1MTI5ZGQ2ZDAyZTE3NTg0NDBkMDM3ZmViZjliNSIsIm5iZiI6MTcyNTg5NDMzOS4wNzgzODIsInN1YiI6IjY2ZGYwZDZiNGYwMTU4YjUyYjlkZmUwOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.kvusUiboMF_IGQmmZI5t9ow5AWNiR1IsSTf7GGvDOm8",
   },
 };
+
+export const TMDB_IMG_URL = "https://image.tmdb.org/t/p/w500";
+
+export const OPENAI_KEY =
+  "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";
+
+export const SUPPORTED_LANGUAGE = [
+  { idenifier: "en", name: "English" },
+  { idenifier: "hindi", name: "Hindi" },
+  { idenifier: "spanish", name: "Spanish" },
+];
