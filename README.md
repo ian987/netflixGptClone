@@ -26,16 +26,6 @@
 - Under main container video title layout and video background
 - Get the movies video from the movie API and extract the Trailer video
 - Use custom hooks for trailer videos
-- Embedded the Youtube video and make it autoplay and mute
-- Build Secondary Conatiner
-- Build Video Title and Video List
-- usePopularMovies custom hooks
-- useUpComingMovies custom hooks
-- GPT search feature
-- Create new component for GPT search and Movie Suggestion
-- Create a multilanguage option using language constants
-- Create a configslice to store the app level config
-
 
 # Features
 
