@@ -50,14 +50,19 @@ const Header = () => {
 
   return (
     <div className="absolute w-full z-10 flex justify-between">
-      <img className="w-48 my-2 mx-16" src={LOGO} alt="logo" />
+      <img
+        className="w-48 my-2 mx-16 cursor-pointer"
+        src={LOGO}
+        alt="logo"
+        onClick={() => navigate("/")}
+      />
 
       {user && (
         <div className="flex items-center mx-20 cursor-pointer">
           <div>
             {showGptPage && (
               <select
-                className="m-4 p-2 rounded"
+                className="m-4 p-2 rounded bg-gray-600 text-white"
                 onChange={(e) => {
                   dispatch(addGptPageLang(e.target.value));
                 }}

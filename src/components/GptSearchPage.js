@@ -1,11 +1,12 @@
 import React from "react";
 import { BACKGROUND_IMAGE } from "../utils/constants";
 import GptSearchBar from "./GptSearchBar";
+import GptMovieSuggestion from "./GptMovieSuggestion";
 
 const GptSearchPage = () => {
   return (
     <div>
-      <div className="absolute brightness-50 -z-10">
+      <div className="fixed brightness-50 -z-10">
         <img
           className="w-screen"
           src={BACKGROUND_IMAGE}
@@ -13,6 +14,7 @@ const GptSearchPage = () => {
         />
       </div>
       <GptSearchBar />
+      <GptMovieSuggestion />
     </div>
   );
 };

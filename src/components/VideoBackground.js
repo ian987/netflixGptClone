@@ -12,10 +12,11 @@ const VideoBackground = ({ trailerId }) => {
         src={
           "https://www.youtube.com/embed/" +
           trailerVideo?.key +
-          "?&autoplay=1&mute=1"
+          "?&autoplay=1&mute=1&loop=1&playlist=" +
+          trailerVideo?.key
         }
         title="YouTube video player"
-        referrerpolicy="strict-origin-when-cross-origin"
+        referrerPolicy="strict-origin-when-cross-origin"
       ></iframe>
     </div>
   );
